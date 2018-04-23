@@ -50,7 +50,7 @@ function makeListOfCars(){
     race.cars.push(new Car("Max", 360), new Car("Vettel", 300), new Car("Bruce", 200));
     race.sortCarsList();
     for(let car of race.cars){
-        returnValue = returnValue + car.type + ":" + car.timeBehind;
+        returnValue = returnValue + " " + car.type + " : " + car.timeBehind;
     }
     return returnValue;
 
