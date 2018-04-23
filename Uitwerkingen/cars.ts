@@ -20,7 +20,6 @@ class Race{
     }
 
     sortCarsList() {
-
         this.cars.sort(this.compareCarSpeed);
         let winningTime:number = this.getTime(this.cars[0].maxSpeed, this.distance)
         for(let car of this.cars){
